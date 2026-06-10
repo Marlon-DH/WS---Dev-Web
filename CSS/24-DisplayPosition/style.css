@@ -1,0 +1,23 @@
+li{
+    background-color: aqua;
+}
+.block li{
+    display: block;
+    width: 100px;
+    margin: 5px;
+}
+.inline li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+.inlineblock li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.none li{
+    display: none;
+    width: 100px;
+    margin: 5px;
+}
