@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="teste" ><h1>Formulario de Cadastro</h1></div>
+    <form action="/" method="post">
+        <label for="nome">NOME: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required><br>
+        <label for="email">EMAIL: </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required><br>
+        <label for="telefone">TELEFONE: </label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone"><br>
+        <label for="senha">SENHA: </label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br>
+        <label for="idade">IDADE: </label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade"><br>
+        <label for="genero">GÊNERO: </label>
+        <select name="genero" id="genero">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="f">FEMININO</option>
+            <option value="m">MASCULINO</option>
+            <option value="o">OUTRO</option>
+        </select><br>
+        
+        <h2>Interesses</h2>
+        <input type="checkbox" name="interesses" id="tecnologia" value="tecnologia">
+        <label for="tecnologia">TECNOLOGIA</label>
+        <input type="checkbox" name="interesses" id="esportes" value="esportes">
+        <label for="esportes">ESPORTES</label>
+        <input type="checkbox" name="interesses" id="musica" value="musica">
+        <label for="musica">MUSICA</label><br>
+        <label for="newslatter">Deseja receber nossa newslatter</label>
+        <input type="radio" name="newslatter" id="newslatter" value="sim">
+        <label for="sim">SIM</label>
+        <input type="radio" name="newslatter" id="newslatter" value="nao">
+        <label for="nao">NÃO</label><br>
+
+        <h2>Informações Adicionais</h2>
+        <label for="sonho">SONHO</label>
+        <textarea name="sonho" id="sonho" rows="5" cols="20" placeholder="Conte seus maiores sonhos "></textarea><br>
+        <label for="cor">COR FAVORITA</label>
+        <input type="color" name="cor" id="cor"><br>
+        <label for="data">DATA DE NASCIMENTO</label>
+        <input type="date" name="data" id="data"><br>
+        <label for="arquivo">MANDE UMA FOTO</label>
+        <input type="file" name="arquivo" id="arquivo"><br><br>
+        <button type="submit">Enviar formulario</button>
+    </form>
+</body>
+</html>

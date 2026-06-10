@@ -1,0 +1,31 @@
+/*!IMPORTANT*/
+p{
+    background-color: lightgray !important;
+}
+ 
+ 
+/*EFEITO CASCATA*/
+.contaneir-cascata{
+    background-color: lightblue;
+}
+ 
+.contaneir-cascata{
+    background-color: lightcoral;
+}
+ 
+.contaneir-cascata{
+    background-color: lightgreen;
+}
+ 
+/*ESPECIFICIDADE*/
+#id-paragrafo{
+background-color: lightgreen;
+}
+ 
+.classe-paragrafo{
+    background-color: lightcoral;
+}
+ 
+p{
+    background-color: lightblue;
+}
