@@ -1,0 +1,25 @@
+form {
+    width: 300px;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #5b5b5b;
+}
+label{
+    display: block;
+    margin-top: 8px;
+    
+}
+body{
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid #cccc;
+}

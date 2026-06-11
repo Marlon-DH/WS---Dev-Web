@@ -1,0 +1,35 @@
+form {
+    width: 400px;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #5b5b5b;
+}
+label{
+    display: inline;
+    margin-top: 8px;
+}
+h2{
+    margin-bottom: 0;
+}
+body{
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input, select{
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid #cccc;
+    text-align: center;
+    display: inline;
+    margin-right: auto;
+}
+input[type="radio"] + label, input[type="checkbox"] + label{
+    display: inline-block;
+}
+.option{
+    display: block;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/">
+        <label for="Sorvete">Tamanho do Sorvete: </label>
+        <select name="Sorvete" id="Sorvete">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="f">Pequeno</option>
+            <option value="m">Médio</option>
+            <option value="o">Grande</option>
+        </select><br>
+        <label for="sabor">Sabor do Sorvete: </label>
+        <input list="sabores" name="sabor" id="sabor">
+        <datalist id="sabores">
+            <option value="Creme"></option>
+            <option value="Chocolate"></option>
+            <option value="Mista"></option>
+        </datalist>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 25px;
+    background-color: lightskyblue;
+    padding: 10px 30px;
+    width: 555px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px #0f0f0f;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+h2 {
+    color: darkblue;
+}
+p {
+    color: #1a1818;
+}
+
+img {
+    width: 300px; 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #696969;
+    margin-bottom: 40px;
+    display: block;
+    margin: 6px;
+}
