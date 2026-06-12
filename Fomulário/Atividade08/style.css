@@ -6,6 +6,9 @@ body{
     justify-content: center;
     
 }
+.teste{
+
+}
 h1, h2{
     color: brown;
     margin-bottom: 10px;
@@ -21,7 +24,8 @@ form {
 }
 label{
     display: block;
-    margin-top: 8px;
+    margin-top: 8px
+
 }
 input, textarea, select {
     width: 100%;

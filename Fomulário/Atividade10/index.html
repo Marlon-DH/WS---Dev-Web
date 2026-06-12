@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="post">
+    <div class="teste" ><h1>Cadastrar no Site</h1>
+        <label for="nome"><b>Nome completo:</b> </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required><br>
+        <label for="email"><b>E-mail:</b> </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required><br>
+        <label for="senha"><b>Senha:</b> </label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha"><br>
+        <label for="idade"><b>Data de nascimento:</b> </label>
+        <input type="date" name="idade" id="idade" placeholder="Digite sua idade"><br>
+        <label for="genero"><b>Gênero:</b> </label>
+        <select name="genero" id="genero">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option>
+            <option value="o">Outro</option>
+            <option value="n">Prefiro não dizer</option>
+        </select><br><br>
+    </div>
+        <label for="termo"><b>Aceito os termos do Site</b></label>
+        <div class="opn">
+        <input type="checkbox" name="termo" id="termo" required>
+        </div><br>
+        <div class="C">
+            <button type="submit">Cadastrar</button>
+        </div>
+        <div class="L">
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>

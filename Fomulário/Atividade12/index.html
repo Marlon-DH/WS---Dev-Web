@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="post">
+    <div class="teste" ><h1>Cadastrar Produto</h1>
+        <label for="nome"><b>Nome do Produto:</b> </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required><br>
+        <label for="number"><b>Preço:</b> </label>
+        <input type="number" name="Preço" id="Preço" placeholder="Digite o Preço do Produto" required><br>
+        <label for="number"><b>Quantidade em estoque:</b> </label>
+        <input type="number" name="est" id="est" placeholder="Digite a Quantidade em estoque" required><br>
+        <label for="servico"><b>Categoria:</b> </label>
+        <select name="servico" id="servico" aria-placeholder="Selecione">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="f">Pequeno</option>
+            <option value="m">Grande</option>
+            <option value="o">Outro</option>
+        </select><br>
+        <label for="Cor"><b>Cor do Produto:</b></label>
+        <input type="color" name="cor" id="cor"> <br>
+        <label for="img"><b>Imagem do produto:</b></label>
+        <input type="image" name="image" id="image"><br>
+    </div><br>
+    <div class="C">
+        <button type="submit">Enviar</button>
+    </div>
+    <div class="L">
+        <button type="reset">Limpar</button>
+    </div>
+    </form>
+</body>
+</html>

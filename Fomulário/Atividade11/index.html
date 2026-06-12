@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="post">
+    <div class="teste" ><h1>Cadastrar Atendimento</h1>
+        <label for="nome"><b>Nome do Produto:</b> </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required><br>
+        <label for="email"><b>Telefone:</b> </label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required><br>
+        <label for="idade"><b>Data de atendimento:</b> </label>
+        <input type="date" name="atendimento" id="atendimento"><br>
+        <label for="horario"><b>Horario: </b></label>
+        <input type="time" name="horario" id="horario">
+        <label for="servico"><b>Tipo de serviço:</b> </label>
+        <select name="servico" id="servico" aria-placeholder="Selecione">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option>
+            <option value="o">Outro</option>
+        </select><br>
+    </div>
+    <label for="termo"><b>Prioridade:</b></label>
+    <div class="opn">
+    <input type="checkbox" name="baixo" id="baixo" required><b>Baixo</b><br>
+    <input type="checkbox" name="medio" id="medio" required><b>Médio</b><br>
+    <input type="checkbox" name="alto" id="alto" required><b>Alto</b><br>
+    </div><br>
+    <div class="C">
+        <button type="submit">Enviar</button>
+    </div>
+    <div class="L">
+        <button type="reset">Limpar</button>
+    </div>
+    <div class="teste">
+        <label for="obs"><b>Observações:</b></label>
+        <textarea name="obs" id="obs" placeholder="Digite suas Observações"></textarea>
+    </div>
+    </form>
+</body>
+</html>
