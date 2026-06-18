@@ -1,13 +1,24 @@
-.bg{
-    width: 1000px;
-    height: 1000px;
-    background-color: beige;
-    background-image: url(OIP\ \(6\).webp);
-    background-repeat: repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
+.banner{
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(25deg, navy , pink 50%, purple 100%);
 }
-p{
+
+.secao{
+    height: 300px;
+    padding: 50px;
     color: aliceblue;
+    background-image: url(OIP\ \(6\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card{
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: radial-gradient(circle, blue 0%, purple 50%, crimson 100%);
 }
