@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Hierarquia de seletores estu=iliza apenas os paragrafos dentro da */
+section p{
+    color: brown;
+}
+
+/* Aplica direto nos filhos do seletor */
+ul > li{
+    color: aqua;
+}
+
+/* Aplica em todos os estilos para varios seletores */
+h2,h3{
+    background-color: bisque;
+}
+
+.card{
+    background-color: aquamarine;
+}
+
+/* Aplica estilo em uma tag de duas classes*/
+.card.destaque{
+    color: blue;
+}
+
+/* Estilizao primeiro elemento logo apos */
+h2 + p{
+    color: chocolate;
+}
+
+/* Estilizao em todos elementos logo apos */
+h2 ~ p{
+    color: antiquewhite;
+}

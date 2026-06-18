@@ -1,0 +1,30 @@
+:root{
+    /* Campo de variaveis */
+    --cor-principal: #f0f0f0;
+    --cor-segundaria: #ff0000;
+    --espacamento: 10px;
+    --tamanho-fonte: 16px;
+    --font-principal: Arial, Helvetica, sans-serif; 
+    --font-segundaria: 'Courier New', Courier, monospace; 
+}
+
+button{
+    color: var(--cor-segundaria);
+    background-color: var(--cor-principal);
+    letter-spacing: var(--espacamento);
+    padding: var(--espacamento);
+}
+
+p{
+    color: var(--cor-principal);
+    background-color: var(--cor-segundaria);
+    margin: var(--espacamento);
+    font-family: var(--font-segundaria);
+    font-size: var(--tamanho-fonte);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

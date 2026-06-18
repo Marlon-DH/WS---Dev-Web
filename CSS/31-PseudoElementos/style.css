@@ -1,0 +1,39 @@
+/* ::before - Inserir conteúdo antes de um elemento */
+.titulo::before{
+    content: "# ";
+    color: yellow;
+}
+
+/* ::after - Inserir conteúdo após um elemento */
+.titulo::after{
+    content: " $";
+    color: pink;
+}
+
+/* ::first-letter - Estilizar a primeira letra do texto */
+p::first-letter{
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+/* ::first-line - Estilizar a primeira linha de texto*/
+.primeira-linha::first-line{
+    color: crimson;
+}
+
+/* ::selection - Estilo texto selecionado pelo usuário */
+p::selection{
+    background-color: yellow;
+    color: crimson;
+}
+
+input::placeholder{
+    color: gray;
+    font-style: italic;
+}
+/* ::marker - Marcadores de itens de lista de estilo */
+li::marker{
+    color: red;
+    font-size: 24px;
+}
