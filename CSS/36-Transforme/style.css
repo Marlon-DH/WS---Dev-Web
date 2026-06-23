@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bloco{
+    width: 800px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bloco p{
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+h2{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.caixa{
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 10px auto;
+    width: 160px;
+    transition: 0.4s;
+}
+
+.botao{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 120px;
+    cursor: pointer;
+}
+
+:hover.translate{
+    transform: translate(200px, 10px);
+}
+
+:hover.scale{
+    transform: scale(1.5);
+}
+
+:hover.rotate{
+    transform: rotate(90deg);
+}
+
+:hover.skew{
+    transform: skew(20deg, 20deg);
+}
+
+/*:hover.combinado{
+    transform: translate(200px, 10px) scale(1.5) rotate(90deg) skew(20deg, 20deg);
+}*/
+
+:hover.hover{
+    transform: scale(1.5);
+}
+
+.botao:hover{
+    transform: translate(200px, 10px) scale(1.5) rotate(90deg) skew(20deg, 20deg);
+}

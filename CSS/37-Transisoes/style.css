@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco{
+    width: 800px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bloco p{
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+h2{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 140px;
+    cursor: pointer;
+    transition: 0.4s;
+    height: auto;
+    
+}
+
+.b-transition{
+    transition: 2s;
+}
+.b-transition:hover{
+    transform: scale(1.6);
+}
+
+.b-property{
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+.b-property:hover{
+    background-color: red;
+    width: 300px;
+}
+
+.b-duration{
+    transition-duration: 2s; 
+}
+.b-duration:hover{
+    transform: scale3d(1.9, 1.0, 1.6);
+}
+
+.b-dalay{
+    transition-delay: 1s;
+}
+.b-dalay:hover{
+    transform: translate3d(200px, 20px, 0px);
+}
+
+.b-timing{
+    transition-duration: 3s;
+    transition-timing-function: steps(6, end);
+}
+.b-timing:hover{
+    transform: scale(3);
+}
+
+.animado{
+   transition: transform 2s, box-shadow 3s;
+
+}
+
+.animado:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 10px 16px 0px darkblue;
+}
