@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.card{
+    background-color: rgb(1, 1, 48);
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+}
+.card p, h1{
+    color: aliceblue;
+    padding: 5px;
+}
+
+.conteudo{
+    background-color: rgb(215, 229, 240);
+    border: 1px solid  rgb(191, 189, 189);
+    text-align: center;
+    word-spacing: 15px;
+    padding-top: 13px;
+}
+
+.a{
+    background-color: rgba(251, 251, 251, 0.653);
+    border: 0.5px solid rgb(191, 189, 189);
+    border-radius: 20px;
+    box-shadow: 1px 3px gray;
+    width: 1400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sobre{
+    height: auto;
+}
+.sobre ul{
+    padding-left: 15px;
+}
+.sobre h2, p{
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.programacao td, tr, th{
+    padding: 4px;
+    padding-right: 60px;
+}
+.programacao h2{
+    margin-bottom: 20px;
+}
+.programacao{
+    height: auto;
+}
+
+.inscricao{
+    height: auto;
+}
+
+label{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+input, textarea, select{
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px grey ridge;
+    width: 100%;
+}
+.enviar button{
+    background-color: lightgreen;
+    width: 100%;
+    height: 30px;
+    color: black;
+    border: 2px green ridge;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.limpar button{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border: 2px red ridge;
+    border-radius: 20px;
+}
+
+.rodape{
+    background-color: rgb(1, 1, 48);
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+    color: aliceblue;
+    margin-top: 8px;
+}
+
+.video{
+    height: auto;
+}
+.video video, source{
+    border-radius: 20px;
+    margin-top: 20px;
+}

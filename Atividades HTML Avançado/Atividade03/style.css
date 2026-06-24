@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+h1{
+    color: #333;
+    background-color: #f2f2f2;
+}
+h2{
+    color: #666;
+    background-color: #e6e6e6;
+}
+footer{
+    margin-top: 660px;
+    color: #666;
+    background-color: #cccccc;
+}

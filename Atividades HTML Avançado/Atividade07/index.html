@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>FEIRA TECNOLOGICA</h1>
+        <p>Porjetos, Inovações e Criatividade</p>
+    </div>
+    <div class="conteudo">
+       <p>Sobre Programação Inscrição Vídeo</p>   
+    </div>
+    <div class="a sobre">
+        <h2>Sobre a Feira</h2>
+        <p>A <b>Feira da Tecnologia</b> vai apresentar varios projetos feitos pelos alunos usando <mark>HTML e CSS</mark></p>
+        <figure >
+        <img src="image.png" alt="alunos" widgth="200px" height="200px">
+        <figcaption>
+            <p>&#128241Alunos que irão apresentar</p>
+        </figcaption>
+        </figure>
+        <ul>
+            <li>Cintax na Programação</li>
+            <li>Oficinas</li>
+            <li>Exposições</li>
+        </ul><br>
+        <a href="https://www.w3schools.com" target="_blank">Saiba mais sobre Programação para Sites</a>
+    </div>
+    <div class="a programacao">
+        <h2>Programação para a Feira</h2>
+        <table>
+            <caption>
+                Horários da Feira
+            </caption>
+        <thead>
+            <tr>
+                <th scope="col">Horário</th>
+                <th scope="col">Atividade</th>
+                <th scope="col">Local</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>8:00 <hr></td>
+            <td>Abertura <hr></td>
+            <td>Auditório <hr></td>
+        </tr>
+        <tr>
+            <td>10:00 <hr> </td>
+            <td>Apresentação de Projetos <hr></td>
+            <td>Laboratório <hr></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Evento Gratuito para Todos</th>
+        </tr>
+    </tfoot>
+        </table>
+        
+    </div>
+    <div class="a inscricao">
+        <h2>Inscrição para a Feira</h2><br>
+        <form action="/" method="post">
+        <label for="nome"><b>Nome Completo:</b></label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo *" required><br>
+        <label for="email"><b>E-mail: </b></label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email *" required><br>
+        <label for="telefone"><b>Telefone:</b></label>
+        <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone"><br>
+        <label for="idade"><b>Idade:</b></label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade"><br>
+        <label for="data"><b>Data de Participação:</b></label>
+        <input type="date" name="data" id="data" placeholder="Quando você vai vir?"><br>
+        <label for="cidade"><b>Cidade:</b></label>
+        <select name="cidade" id="cidade">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="sal">Salto</option>
+            <option value="itu">Itu</option>
+            <option value="ind">Indaiatuba</option>
+            <option value="cam">Campinas</option>
+            <option value="ou">Outro</option>
+        </select><br><br>
+        <label for="sonho"><b>Suas Observações:</b></label>
+        <textarea name="obs" id="sonho" rows="5" cols="20" placeholder="Alguma Observação? "></textarea><br>
+        <div class="enviar">
+            <button type="submit"><b>Enviar Inscrição</b></button>
+        </div>
+        <div class="limpar">
+            <button type="reset">Limpar</button>
+        </div>
+    </div>
+    <div class="a video">
+        <h2>Vídeo Apresentação</h2>
+        <video controls loop>
+            <source src="WhatsApp Video 2026-06-09 at 20.00.04.mp4" type="audio/ogg">
+            Seu navegador não suporta esse tipo de Vídeo.
+        </video>
+    </div>
+    <footer>
+    <div class="rodape">
+        &copy Desenvolvido por TEC.TI Senac &#128187
+        Todos os direitos reservados &trade; 
+    </div>
+    </footer>
+</body>
+</html>
