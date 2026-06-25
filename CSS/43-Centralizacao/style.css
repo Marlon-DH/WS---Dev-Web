@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+    height: 100vh;
+}
+
+/* Container principal (Flex Container) */
+.caixa{
+    width: 600px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Caixa que fica dentro do container principal (Flex Item) */
+.item{
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item{
+    background-color: orange;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
