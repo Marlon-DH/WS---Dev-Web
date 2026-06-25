@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    max-width: 300px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.row-gap{
+    row-gap: 10px;
+}
+
+.column-gap{
+    column-gap: 10px;
+}
