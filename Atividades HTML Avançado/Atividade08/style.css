@@ -36,9 +36,15 @@ button{
     border-radius: 5px;
     font-size: 10px;
 }
+.coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 
 .conteudo{
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -49,6 +55,8 @@ button{
 .conteiner{
     display: flex;
     justify-items: center;
+    margin-top: 10px;
+    margin-right: 5px;
     width: 180px;
     height: 100px;
     border: 2px solid black;
