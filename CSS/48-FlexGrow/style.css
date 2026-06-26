@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    max-width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+}
+
+.item{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.grow-0 .item{
+    flex-grow: 0;
+}
+
+.grow-1 .item{
+    flex-grow: 1;
+}
+
+.grow-2 .destaque{
+    flex-grow: 2;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    width: 90vw;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+}
+
+.imagem{
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo{
+    flex: 1;
+    background-color: lightcyan;
+    padding: 10px;
+}
+
+.ajuste .conteudo{
+    min-width: 0;
+}
+
+.conteudo p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: lightgray;
+    padding: 20px;
+}

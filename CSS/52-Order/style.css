@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+}
+
+.item{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+.item1{
+    order: 2;
+}
+.item2{
+    order: 1;
+}
+.item3{
+    order: 3;
+}
+
+.destaque{
+    order: -1;
+    background-color: rebeccapurple;
+}

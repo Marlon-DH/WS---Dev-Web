@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+}
+
+.item{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+/*            grow shrink basis           */
+/* padrão:    0    1      auto            */
+
+/* Elemento não cresce, pode encolher e inicia com base no contexto */
+
+.flex-1 .item{
+    flex: 1;
+}
+
+.flex .item{
+    flex: 1 1 auto;
+}
+
+.flex-fixo .item{
+    flex: 0 0 200px;
+}
+
+.flex-completo .item{
+    flex: 1 1 250px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    margin: 5px;
+}
+
+.item{
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    width: 120px;
+    border: 1px solid black;
+}
+
+.shrink-0 .item{
+    flex-shrink: 0;
+}
+
+.shrink-1 .item{
+    flex-shrink: 1;
+}
+
+.shrink-2 .item{
+    flex-shrink: 1;
+}
+
+.shrink-2 .destaque{
+    flex-shrink: 2;
+    background-color: rgb(3, 71, 71);
+}
