@@ -1,0 +1,71 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h1, h2, h3 {
+        font-family: Arial, sans-serif;
+        color: #222;
+    }
+
+    body {
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        color: purple;
+    }
+
+    .categorias {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .categorias li {
+        color: #333;
+        margin: 5px 0;
+    }
+
+    .jogos {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .jogos > .card {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        width: 220px;
+        box-shadow: 1px 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .card h3 {
+        margin-top: 10px;
+    }
+
+    .card.destaque {
+        border: 3px solid gold;
+        background-color: #fff8dc;
+    }
+
+    .promocoes {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    

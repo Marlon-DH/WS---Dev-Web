@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 640px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+}
+
+.igual{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.maior{
+    display: grid; 
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.crescendo{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 3fr;
+}
