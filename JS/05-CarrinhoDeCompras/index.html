@@ -1,58 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carrinho de Compras</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yuyu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yuyu&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="titulo">
-            <h1>Carrinho de Compra</h1>
-            <h2>itens de tecnologia</h2>
-        </div>
+      <div class="titulo">
+        <h1>Carrinho de Compras</h1>
+        <h2>itens de tecnologia</h2>
+      </div>
 
-        <button class="btn-header"><span>+</span> Novo Produto</button>
-
+      <button class="btn-header"><span>+</span> Novo produto</button>
     </header>
     <main>
-        <section class="card">
-            <h2>Adicionar Produto</h2>
-            <label for="produto">Produto</label>
-            <select name="produto" id="produto">
-                
-            </select>
-            <label for="quantidade">Quantidade</label>
-            <input type="number" id="quantidade" min="1" value="1">
-            
-            <button class="btn-adicionar">Adicionar ao Carrinho</button>
+      <section class="card">
+        <h2>Adicionar produto</h2>
+        <label for="produto">Produto</label>
+        <select name="produto" id="produto"></select>
+        <label for="quantidade">Quantidade</label>
+        <input type="number" id="quantidade" min="1" value="1" />
 
-            <div class="apresentacao">
-                <div class="imagem" style="width: 150px;">
-                    <img src="" alt="">
-                </div>
-                <div class="info-dados">
-                    <h3>Mouse</h3>
-                    <p>Mouse optico</p>
-                    <p>R$ 49,90</p>
-                </div>
-            </div>
-        </section>
-        <section class="card">
-            <h2>Produto no Carrinho</h2>
-            <p>Seu carrinho está vazio</p>
-            <hr>
-            <div class="summary">
-                <div class="summary-total">
-                    <p>Total</p>
-                    <p class="valor-total">R$ 0,00</p>
-                </div>
-                <button class="total-limpar">Limpar</button>
-            </div>
-        </section>
+        <button onclick="adicionarProduto()" class="btn-adicionar">Adicionar ao carrinho</button>
+        <div class="preview" id="preview">
+          <!-- Todo HTML dessa parte irá aparecer via JS -->
+        </div>
+      </section>
+      <section class="card">
+        <h2>Produtos no Carrinho</h2>
+        <div class="carrinho" id="carrinho">
+          <div class="item-imagem">
+            <img src="" alt="">
+          </div>
+          <div class="item-dados">
+            <h3>Nome do produto</h3>
+            <p>Preço do produto</p>
+          </div>
+
+          <div class="item-quantidade">
+            <button class="quantidade-remover" onclick="alterarQuantidade">-</button>
+            <button class="quantidade-adicionar" onclick="alterarQuantidade">+</button>
+          </div>
+
+          
+
+            <!-- Todo HTML dessa parte irá aparecer via JS -->
+        </div>
+        <hr/>
+        <div class="summary">
+          <div class="summary-total">
+            <p>Total</p>
+            <p class="total-valor" id="total-valor">R$ 0,00</p>
+          </div>
+          <button class="total-limpar">Limpar</button>
+        </div>
+      </section>
     </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
