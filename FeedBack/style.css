@@ -13,11 +13,15 @@
     background-color: darkslateblue;
     color: aliceblue;
 }
+
+h1, h2{
+    color: darkslateblue;
+}
 .header h1{
     font-family:  "Open Sans", sans-serif;
     padding-bottom: 9px;
+    color: aliceblue;
 }
-
 
 .body{
     display: flex;
@@ -32,11 +36,14 @@
 .separar-esquerda{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 50vw;
+    height: 80vh;
+   
 }
 .separar-direita{
     display: flex;
     width: 100vw;
+    margin-left: 65px;
 }
 .separar-baixo{
     display: flex;
@@ -47,32 +54,55 @@
     flex-direction: column;
     padding: 20px;
     padding-right: 20px;
+    
 }
 .texto ul, li{
     margin-right: 20px;
     padding: 5px;
+    
 }
 
-.separar-direita .container{
-    width: 400px;
-    height: 650px;
+.separar-direita .pouco{
+    width: 200px;
+    height: 600px;
     margin-top: 10px;
     margin-right: 30px;
     border-radius: 20px;
-    border: 2px solid  rgb(182, 172, 153);
-    background-color: rgb(250, 241, 226);
+    border: 2px solid  rgba(182, 172, 153, 0.177);
+    background-color: rgb(249, 249, 249);
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.separar-direita .container{
+    width: 200px;
+    height: 600px;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: 2px solid  rgba(182, 172, 153, 0.177);
+    background-color: rgb(249, 249, 249);
 }
 
 .separar-esquerda .container{
     display: inline-flex;
-    width: 460px;
-    height: auto;
+    width: 300px;
+    height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
     border-radius: 20px;
-    border: 2px solid  rgb(182, 172, 153);
-    background-color: rgb(250, 241, 226);
+    border: 2px solid  rgba(182, 172, 153, 0.177);
+    background-color: rgb(249, 249, 249);   
+}
+
+.separar-esquerda .pro{
+    width: auto;
+    height: auto;
+}
+.separar-esquerda .easy{
+    width: auto;
 }
 
 img{
@@ -81,7 +111,94 @@ img{
     height: 150px;
 }
 
+.separar-esquerda .container:hover{
+    transition: transform 0.5s, box-shadow 1.5s;
+    transform: scale(1.05);
+    box-shadow: 1px 10px 16px 0px darkslateblue;
+}
+
+.separar-direita .container:hover{
+    width: 450px;
+    transition-duration: 0.8s;
+    box-shadow: 1px 10px 16px 0px darkslateblue;
+}
+
+.separar-direita .pouco:hover{
+    width: 280px;
+    transition-duration: 0.8s;
+    box-shadow: 1px 10px 16px 0px darkslateblue;
+}
+
+.separar-direita .container img{
+    width: 0px;
+    height: 0px;
+}
+.separar-direita .container:hover img{
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    transition-duration: 0.8s;
+}
+
+.separar-direita .feedback{
+    width: 240px;
+    height: 600px;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: 2px solid  rgba(0, 0, 0, 0.168);
+    background-color: rgb(249, 249, 249);
+    flex-direction: column;
+    padding: 20px;
+}
+
+.separar-direita .feedback:hover{
+    transition-duration: 0.8s;
+    box-shadow: 1px 10px 16px 0px darkslateblue;
+}
+
+textarea{
+    border: 2px solid  rgba(182, 172, 153, 0.493); 
+    border-radius: 20px;
+    width: 200px;
+    height: 200px; 
+    padding: 10px;
+}
+button{
+    border: 2px solid  rgba(182, 172, 153, 0.493); 
+    border-radius: 20px;
+    background-color: darkslateblue;
+    color: aliceblue;
+    width: 200px;
+    height: 70px; 
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    border: 2px solid  rgba(71, 61, 139, 0.464);
+    background-color: rgb(249, 249, 249);
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.footter h2{
+    color: aliceblue;
+}
+
 .footter{
     display: flex;
     background-color: darkslateblue;
+    width: 100vw;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
 }
